@@ -1,6 +1,5 @@
 namespace TheBestOfTiraet.Models;
 
-public class Users
+public class Users : BaseModel
 {
-    
 }
