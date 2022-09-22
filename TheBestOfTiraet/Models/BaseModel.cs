@@ -5,7 +5,7 @@ public abstract class BaseModel:IEntity
     protected BaseModel()
     {
         Id = Guid.NewGuid();
-        DateCreation = DateTime.Now;
+        DateCreation = DateTime.UtcNow;
         DateUpdate = DateTime.UtcNow;
     }
 
