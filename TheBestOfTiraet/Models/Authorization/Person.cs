@@ -1,4 +1,4 @@
-namespace TheBestOfTiraet.Models;
+namespace TheBestOfTiraet.Models.Authorization;
 
 public class Person:BaseModel
 {
